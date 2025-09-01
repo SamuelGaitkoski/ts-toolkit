@@ -1,27 +1,16 @@
 {
   "name": "ts-toolkit",
   "version": "1.0.0",
-  "description": "A TypeScript-first utility library demonstrating advanced TS features: generics, conditional types, type guards, mapped types, and more.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
-  }
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SamuelGaitkoski/ts-toolkit.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SamuelGaitkoski/ts-toolkit/issues"
-  },
-  "homepage": "https://github.com/SamuelGaitkoski/ts-toolkit#readme",
   "devDependencies": {
-    "@types/jest": "^30.0.0",
+    "typescript": "^5.9.2",
     "jest": "^30.1.2",
     "ts-jest": "^29.4.1",
-    "typescript": "^5.9.2"
+    "@types/jest": "^30.0.0" 
   }
 }
